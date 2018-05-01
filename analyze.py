@@ -204,5 +204,5 @@ def process_data(all):
 
 if __name__ == "__main__":
     # Process csv file.
-    process_data(pandas.read_csv('data/forces.csv')[522:600])
+    process_data(pandas.read_csv('data/forces.csv'))
     print('Analysis complete')
